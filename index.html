@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h3>Check how many time letter entered is repeated in statement</h4>
+        <p></p>
+        <textarea 
+            type="text"
+            value=''
+            id="s"
+            maxlength="100"
+            placeholder="enter your statement"
+            style="width: 500px; resize: none;"
+        ></textarea>
+        <br>
+        <textarea
+            type="text"
+            value=''
+            id="ip"
+            maxlength="1"
+            onkeyup="func()"
+            placeholder="enter letter"
+            style="width: 100px; resize: none;"
+        ></textarea>
+        <p id="d"></p>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
